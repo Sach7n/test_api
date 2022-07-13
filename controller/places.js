@@ -33,7 +33,8 @@ const getAllPlaces = async (req, res) => {
 }
 
 const updatePlace = async (req, res) => {
-    res.json("get one place")
+    res.json("update place logic")
+    //get values from user and save them to res.places_1
 }
 
 const deletePlace = async (req, res) => {
