@@ -3,16 +3,30 @@ POST  http://localhost:3000/places/
 Content-Type: application/json
 
 {
-"title": "Bombau",
-"description": "udarfry",
-"attraction":"Panjim Airport",
-"type":"November",
-"best_time":"beach",
+"title": "Niagra",
+"description": "fallsy",
+"attraction":"water",
+"type":"tour",
+"best_time":"of life",
 "nearest_airport":"Vada",   
 "destination":"Anjundolim beach,Colva beach,Old Goa"
 }
 
 ###
 
-//get all the places
+
+//get one places
 GET  http://localhost:3000/places/
+
+
+###
+
+
+//get one places
+GET  http://localhost:3000/places/62ce760db8d3de4d20cbdfe7
+
+###
+
+
+//delete all the places
+DELETE  http://localhost:3000/places/62ce8e2339ccc202cf660827
